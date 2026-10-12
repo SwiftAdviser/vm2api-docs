@@ -108,6 +108,8 @@ Open:
 
 `http://<host>:8787/console/#/login`
 
+Opening the console now shows a welcome page. Use **Sign in** at the top right, or open this URL directly; both lead to the sign-in page. After sign-in the welcome page shows a setup checklist.
+
 If an older note's `/cc#/login` 404s, use the URL above. The server serves the console at `GET /console`. A body of `console not found; run pnpm -C web build` means this is not a release image.
 
 Sign in with `VM2API_ADMIN_USER` / `VM2API_ADMIN_PASSWORD`. Then on [Users](./console/users) set the admin password to at least 8 characters. Do not put the master key `VM2API_API_KEY` in a client. Issue an `sk-vm-…` key on [Keys](./console/keys).

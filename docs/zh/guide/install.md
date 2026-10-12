@@ -114,6 +114,8 @@ UFW 或 firewalld 默认拒绝入站时，先放行槽的出口网关，再导�
 
 `http://<主机>:8787/console/#/login`
 
+打开管理台现在是欢迎页。点右上角「登录」或直接打开这个地址，都会进入登录页。登录后回到欢迎页，显示首配清单。
+
 旧文档里的 `/cc#/login` 打不开就用上面这个。当前服务在 `GET /console` 提供管理台。响应体若是 `console not found; run pnpm -C web build`，说明这不是发行镜像，网页没打进包。
 
 用 `VM2API_ADMIN_USER` / `VM2API_ADMIN_PASSWORD` 登录。然后到 [用户](./console/users) 把管理员密码改成至少 8 位。Master 密钥 `VM2API_API_KEY` 不要放进任何客户端，客户端用 [密钥](./console/keys) 页签发的 `sk-vm-…`。

@@ -4,7 +4,7 @@
 
 1. [安装](./install)：Ubuntu 24.04，一键脚本，健康检查，改掉默认密码。那一页是逐步的，包括手动安装和防火墙。
 2. [导入](./console/import)：空槽、出口、账号、官方初装。
-3. [调用 API](./api)：用 `sk-vm-…` 或 Master 密钥打 `/v1/messages`。
+3. [调用 API](./api)：用 `sk-vm-…` 或 Master 密钥打 `/v1/messages`。把 Claude Code、Codex 或 SDK 接到网关，见 [客户端接入](./clients)。
 
 已经在跑、只想升版本：不要重装，走 [更新](./upgrade)。更新保留 `.env`、`vms/` 和 `data/`，也不要 `docker rm` 槽。
 

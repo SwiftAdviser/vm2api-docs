@@ -1,9 +1,10 @@
 # Page map
 
-The console is `http://<host>:8787/console/#/…`. The left nav matches the pages below. Install and update are not console screens. They are pinned at the top of this site: [Install](./install), [Update](./upgrade).
+The console is `http://<host>:8787/console/#/…`. The left nav matches the pages below, except the public landing `#/welcome`. Install and update are not console screens. They are pinned at the top of this site: [Install](./install), [Update](./upgrade).
 
 | Nav | URL | This page owns |
 | --- | --- | --- |
+| Welcome | `#/welcome` | Public intro. Sign in from the top-right. After sign-in, the first-run checklist |
 | Overview | `#/overview` | Cluster health, whether accounts can be scheduled, the last hour of service |
 | Statistics | `#/statistics` | Request, cost, and latency trends, plus user and model ranks |
 | Logs | `#/logs` | One row per request: filter, export, open the body |

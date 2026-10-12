@@ -1,6 +1,6 @@
 # 调用 API
 
-默认监听 `:8787`。需要 HTTPS 时在前面放 nginx。本页是客户端契约。管理台路由在 [管理台](./console)。出站清洗在产品 [PROTOCOL.md](https://github.com/dofastted/vm2api/blob/main/docs/PROTOCOL.md)。
+默认监听 `:8787`。需要 HTTPS 时在前面放 nginx。本页是客户端契约。把 Claude Code、Codex 或 SDK 指到这台主机，见 [客户端接入](./clients)。管理台路由在 [管理台](./console)。出站清洗在产品 [PROTOCOL.md](https://github.com/dofastted/vm2api/blob/main/docs/PROTOCOL.md)。
 
 ## 鉴权
 

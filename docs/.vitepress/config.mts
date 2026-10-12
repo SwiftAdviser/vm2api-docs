@@ -63,6 +63,7 @@ function sidebarEn(): DefaultTheme.Sidebar {
         text: 'Call',
         items: [
           { text: 'Call the API', link: '/guide/api' },
+          { text: 'Connect clients', link: '/guide/clients' },
           { text: 'Slots and accounts', link: '/guide/slots' }
         ]
       }
@@ -131,6 +132,7 @@ function sidebarZh(): DefaultTheme.Sidebar {
         text: '接入',
         items: [
           { text: '调用 API', link: '/zh/guide/api' },
+          { text: '客户端接入', link: '/zh/guide/clients' },
           { text: '槽位与账号', link: '/zh/guide/slots' }
         ]
       }
