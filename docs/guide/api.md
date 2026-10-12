@@ -1,6 +1,6 @@
 # Call the API
 
-Default listen address is `:8787`. Put nginx in front if you want HTTPS. This page is the client contract. Panel routes are in [Console](./console). Outbound cleanup is in the product [PROTOCOL.md](https://github.com/dofastted/vm2api/blob/main/docs/PROTOCOL.md).
+Default listen address is `:8787`. Put nginx in front if you want HTTPS. This page is the client contract. To point Claude Code, Codex, or an SDK at this host, see [Connect clients](./clients). Panel routes are in [Console](./console). Outbound cleanup is in the product [PROTOCOL.md](https://github.com/dofastted/vm2api/blob/main/docs/PROTOCOL.md).
 
 ## Authentication
 
