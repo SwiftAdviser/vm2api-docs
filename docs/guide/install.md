@@ -108,7 +108,7 @@ Open:
 
 `http://<host>:8787/console/#/login`
 
-Opening the console now shows a welcome page. Sign in from the top-right button. After sign-in the page shows a setup checklist. This URL still opens the sign-in dialog.
+Opening the console now shows a welcome page. Use **Sign in** at the top right, or open this URL directly; both lead to the sign-in page. After sign-in the welcome page shows a setup checklist.
 
 If an older note's `/cc#/login` 404s, use the URL above. The server serves the console at `GET /console`. A body of `console not found; run pnpm -C web build` means this is not a release image.
 
