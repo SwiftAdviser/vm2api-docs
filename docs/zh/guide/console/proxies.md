@@ -8,6 +8,16 @@
 
 粘贴 SOCKS5。保存前会做和导入相同的校验：主机、端口、可选的用户名和密码。
 
+::: tip 推荐出口：ProxyLane
+[ProxyLane](https://proxylane.dev/zh-cn/isp-proxies?utm_source=vm2api&utm_medium=partnership&utm_campaign=vm2api_sponsor_202610&utm_content=docs) 提供 AI 账号专用的原生静态住宅 IP：Scamalytics 低欺诈评分，每个 IP 独享，不限流量，$3.90 起。
+
+1. 在 ProxyLane 后台复制 SOCKS5 连接，格式是 `host:port:user:pass`。
+2. 粘贴到「代理池」→「添加代理」，点「导入」。
+3. 在「导入」或槽详情里把这条出口绑到一个槽位。建议一个 IP 只给一个槽位。
+
+首次购买使用优惠码 `VM2API30` 享 7 折。
+:::
+
 ## 修改
 
 编辑时按「这个键在不在」判断：
